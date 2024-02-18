@@ -17,8 +17,10 @@ function sortear() {
         } else {
             alert('A quantidade de números sorteados deve ser igual ou inferior ao intervalo de números escolhidos para o sorteio.')
         }
-    } else {
+    } else if {
         alert('O valor inicial do intervalo deve ser menor que o valor final inserido.');
+    } else {
+        alert('Ocorreu um erro, tente novamente.')
     }
 }
 
